@@ -20,6 +20,12 @@ img{
 .my{
     color: red;
     font-weight: bold;
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    line-height: 50px;
 }
 
 .k{
@@ -56,25 +62,5 @@ img{
 }
 
 
-@media screen and (max-width: 650px) {
- p{
-     clear:both;
- }
-    img{
-    width:100%;
- 
- }
-    .image{
-     
-        width:250px;
-        margin-left:auto;
-        margin-right:auto;
 
- }
-}
-
-/* Width at 168px and below */
-@media screen and (max-width: 650px) {
-
-}
 

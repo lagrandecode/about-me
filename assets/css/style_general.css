@@ -88,7 +88,7 @@ header{
 /* The footer will stay at the bottem. I made it fixed to the 100% span of the html page....I think? 
 it worked... */
 footer{
-    position: absolute;
+    /* position: absolute; */
     color:#ffffff;
     background:#666666;
     left: 0;
@@ -99,26 +99,3 @@ footer{
     line-height: 50px;
     border-top: 10px solid #4aaaa5;; 
 }
-/* I didn't realize there were certain media query dimensions given...I just did what looked right */
-@media screen and (max-width: 600px) {
-    header{
-        height: 100px;
-        margin-bottom: 5px;
-    }
-    h1,nav{
-        width:100%; 
-    }
-    h1{
-
-        margin-left:0px;
-    }
-    nav{
-
-        border-bottom: 2px solid #cccccc;
-        margin-right:0px;
-
-    }
-
-  }
-
-  
