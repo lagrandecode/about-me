@@ -1,0 +1,124 @@
+/* This is the general CSS. You may see in other unique CSS style forms
+the same div calls. */
+
+
+html {
+    background-image: url('../images/bats.gif');
+    background-repeat: repeat;
+}
+/*This is for the overall background of every page. 
+I put repeat so the image doesn't become pixelized or stretched. It will keep stamping*/
+body{ 
+    background-image: url('../assets/images/bats.gif');
+    background-repeat:repeat;
+}
+
+header{
+    background: #ffffff;
+    height: 50px;
+    border-bottom: 2px solid #cccccc;
+
+}
+    h1,h2,h3{
+        font-family: 'Georgia', Times,Times New Roman, serif;
+    }
+    nav,p{
+        font-family:'Arial', 'Helvetica Neue',Helvetica, sans-serif;
+    }
+    nav,h1{
+        /* Text attributes */
+        vertical-align: middle;
+        text-align:center;
+        line-height: 50px;
+    }
+    a{
+        color:grey;
+        text-decoration: none;
+    }
+
+    nav{
+        /* float orientation */
+        float: right;
+        margin-right:15%;
+    }
+    h1{
+        /* color styling text and box */
+        background:#4aaaa5;
+        color:#ffffff;
+        font-size:25px;
+        /* box attributes */
+        width:17%;
+        height: 50px;
+        /* float orientation */
+        float:left;
+        margin-left:15%;
+    }
+/* This lays out the main format of the pages for centering and margins */
+.container{
+    margin-top:30px;
+    width:70%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+    h2,img,p,hr{
+        margin-left:2.5%;
+        margin-right:2.5%;
+    }
+    hr{
+        margin-bottom:2%;
+    }
+
+    h2{
+        padding-top:5px;
+        color:#4aaaa5;
+        font-weight: bolder;
+        font-size:30px;
+        line-height:50px;
+        vertical-align: middle;
+    }
+
+    p{
+        text-align: justify;
+        line-height: 25px;
+        font-size: 17px;
+        color:#777777;
+    }
+
+/* The footer will stay at the bottem. I made it fixed to the 100% span of the html page....I think? 
+it worked... */
+footer{
+    position: absolute;
+    color:#ffffff;
+    background:#666666;
+    left: 0;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    text-align:center;
+    line-height: 50px;
+    border-top: 10px solid #4aaaa5;; 
+}
+/* I didn't realize there were certain media query dimensions given...I just did what looked right */
+@media screen and (max-width: 600px) {
+    header{
+        height: 100px;
+        margin-bottom: 5px;
+    }
+    h1,nav{
+        width:100%; 
+    }
+    h1{
+
+        margin-left:0px;
+    }
+    nav{
+
+        border-bottom: 2px solid #cccccc;
+        margin-right:0px;
+
+    }
+
+  }
+
+  

@@ -1,0 +1,74 @@
+
+
+#current{
+    color:#4aaaa5;
+    font-weight:bold;
+}
+
+.styleform{
+    background:#ffffff;
+    border-radius: 8px;
+    border: 1px solid #dddddd;
+}
+
+label,input[type="text"] {
+    font-family:Arial;
+}
+label{
+    color:#777777;
+}
+
+input[type="text"]{
+    height:25px;
+    font-size:15px;
+
+}
+
+textarea{
+    height:200px;
+    font-size: 15px; 
+}
+
+label, input[type="text"], select, textarea{
+    width:92%;
+    resize: vertical;
+    max-height: 230px;
+    margin-left:2.5%;
+    margin-right:4.5%;
+    margin-bottom: 16px;
+    margin-top: 5px;
+}
+
+input[type=submit] {
+    cursor: pointer;
+    background-color:#4aaaa5;
+    margin-left:2.5%;
+    margin-right:2.5%;
+    margin-bottom:1%;
+    color: #ffffff;
+    font-size:18px;
+    height:42px;
+    width:15%;
+    vertical-align: middle;
+    border-radius: 8px;
+}
+input[type=submit]:hover {
+    background-color: #2a6e83;
+}
+input[type=submit]:active {
+    background-color: #2a6e83;
+    width:90%;
+    background:hotpink;
+}
+/* I didn't realize there were certain media query dimensions given...I just did what looked right */
+
+@media screen and (max-width: 850px) {
+    input[type=submit] {
+        width:95%;
+        margin-left:2.5%;
+        margin-right:2.5%;
+    }
+    .styleform{
+        margin-bottom:25%;
+    }
+}
